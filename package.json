@@ -1,6 +1,6 @@
 {
   "name": "netlify-monorepo-template",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "engines": {
     "node": ">=18"
