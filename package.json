@@ -7,9 +7,8 @@
   },
   "scripts": {
     "dev": "netlify dev --filter client",
-    "build": "netlify build --filter client",
-    "deploy-preview": "netlify deploy --filter client --alias=dev",
-    "deploy-prod": "netlify deploy --filter client --prod"
+    "client": "cd client && npm run dev",
+    "build": "netlify build --filter client"
   },
   "author": "",
   "license": "ISC",
